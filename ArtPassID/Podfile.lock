@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.9.1)
+  - IQKeyboardManagerSwift (6.2.1)
+  - LGSideMenuController (2.1.1)
+  - RappleProgressHUD (4.1)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+  - SKCountryPicker (1.2.7)
+  - SwiftyStoreKit (0.16.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - IQKeyboardManagerSwift
+  - LGSideMenuController
+  - RappleProgressHUD (~> 4.0)
+  - SDWebImage (~> 4.0)
+  - SKCountryPicker (~> 1.2.0)
+  - SwiftyStoreKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - LGSideMenuController
+    - RappleProgressHUD
+    - SDWebImage
+    - SKCountryPicker
+  trunk:
+    - SwiftyStoreKit
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+  RappleProgressHUD: f29bc5dc5f9834c2caa9c2ae21ba11f3ff2b5a85
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  SKCountryPicker: 9abf4993e9e21683e8d58d56279daaa09b705a91
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+
+PODFILE CHECKSUM: 64c0961ecba934ed368123acb12ce4569f993461
+
+COCOAPODS: 1.9.1
