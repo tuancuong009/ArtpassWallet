@@ -44,7 +44,7 @@
 		484A49A7240E083D001A98E7 /* MyArchivedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A49A6240E083D001A98E7 /* MyArchivedVC.swift */; };
 		484A49A9240E08C0001A98E7 /* MyProfileArchivedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A49A8240E08C0001A98E7 /* MyProfileArchivedVC.swift */; };
 		484A7E52242DFB56008C7032 /* ConnectResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A7E51242DFB56008C7032 /* ConnectResultVC.swift */; };
-		485401E52865D17C0003E275 /* Main~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485401E32865D17C0003E275 /* Main~ipad.storyboard */; };
+		484E9CA328991FA100F550D3 /* DeleteAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E9CA228991FA100F550D3 /* DeleteAccountVC.swift */; };
 		485D2BCA23FFD1E100D2AF82 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485D2BC923FFD1E100D2AF82 /* Data.swift */; };
 		485E11B3246E545700271300 /* PriceTransationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E11B2246E545700271300 /* PriceTransationVC.swift */; };
 		4871281D23EAB7390053BB7E /* MyArtPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871281C23EAB7390053BB7E /* MyArtPassVC.swift */; };
@@ -222,7 +222,7 @@
 		484A49A6240E083D001A98E7 /* MyArchivedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArchivedVC.swift; sourceTree = "<group>"; };
 		484A49A8240E08C0001A98E7 /* MyProfileArchivedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileArchivedVC.swift; sourceTree = "<group>"; };
 		484A7E51242DFB56008C7032 /* ConnectResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectResultVC.swift; sourceTree = "<group>"; };
-		485401E42865D17C0003E275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main~ipad.storyboard"; sourceTree = "<group>"; };
+		484E9CA228991FA100F550D3 /* DeleteAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteAccountVC.swift; sourceTree = "<group>"; };
 		485D2BC923FFD1E100D2AF82 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		485E11B2246E545700271300 /* PriceTransationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTransationVC.swift; sourceTree = "<group>"; };
 		4871281C23EAB7390053BB7E /* MyArtPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArtPassVC.swift; sourceTree = "<group>"; };
@@ -581,7 +581,6 @@
 		7887C4992269628F002F66B5 /* ArtPassID */ = {
 			isa = PBXGroup;
 			children = (
-				485401E32865D17C0003E275 /* Main~ipad.storyboard */,
 				4838829C240CBBBD0066C4A1 /* artplusDebug.entitlements */,
 				4838829B240CBBA60066C4A1 /* artplusRelease.entitlements */,
 				48AEB65B23F3A2520061DE52 /* en.lproj */,
@@ -675,6 +674,7 @@
 		7887C4E022696A45002F66B5 /* RegisterVC */ = {
 			isa = PBXGroup;
 			children = (
+				484E9CA228991FA100F550D3 /* DeleteAccountVC.swift */,
 				7887C4E122696A6C002F66B5 /* RegisterStep1VC.swift */,
 				7887C4E322696D14002F66B5 /* RegisterStep2VC.swift */,
 				7887C4E522696FF9002F66B5 /* RegisterStep3VC.swift */,
@@ -813,7 +813,6 @@
 				7887C4D8226963D8002F66B5 /* Montserrat-SemiBold.ttf in Resources */,
 				7887C4DB226963D8002F66B5 /* Montserrat-ThinItalic.ttf in Resources */,
 				48DFD93B238F613600B68163 /* OpenSans-Regular.ttf in Resources */,
-				485401E52865D17C0003E275 /* Main~ipad.storyboard in Resources */,
 				48E4CB8823EAAEAC00961A6C /* Roboto-Regular.ttf in Resources */,
 				48DBAAD5248F78AB00855F4E /* AmpSellerCell.xib in Resources */,
 				48E4CB8623EAAEAC00961A6C /* Roboto-Medium.ttf in Resources */,
@@ -991,6 +990,7 @@
 				4897D29D24A9DD7B0006B462 /* ClickBuyerVC.swift in Sources */,
 				481238452431A6AD009D4971 /* JurisdictionVC.swift in Sources */,
 				4814F39D23F6451A0018FE6C /* RegisterVC.swift in Sources */,
+				484E9CA328991FA100F550D3 /* DeleteAccountVC.swift in Sources */,
 				48A16726245FF94900F61133 /* ActiveDirectorVC.swift in Sources */,
 				48DBAAD4248F78AB00855F4E /* AmpSellerCell.swift in Sources */,
 				48F04A5923ED520300A370B9 /* MyPassIDVC.swift in Sources */,
@@ -1011,14 +1011,6 @@
 				481C494023F15986000FD47F /* Base */,
 			);
 			name = MainSDK.storyboard;
-			sourceTree = "<group>";
-		};
-		485401E32865D17C0003E275 /* Main~ipad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				485401E42865D17C0003E275 /* Base */,
-			);
-			name = "Main~ipad.storyboard";
 			sourceTree = "<group>";
 		};
 		48AEB65C23F3A2520061DE52 /* Localizable.strings */ = {
@@ -1175,7 +1167,7 @@
 				CODE_SIGN_ENTITLEMENTS = ArtPassID/artplusDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = 7CZRA7KNK3;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1192,7 +1184,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qtsvn.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qtsvn.artpasspro;
 				PRODUCT_NAME = artplus;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1213,7 +1205,7 @@
 				CODE_SIGN_ENTITLEMENTS = ArtPassID/artplusRelease.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = H5QVY2M337;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

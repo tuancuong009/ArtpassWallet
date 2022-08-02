@@ -223,26 +223,17 @@ class PaymentDetailVC: UIViewController {
         //var doc_fname = ""
        var doc_lname = ""
        if let profileObj = APP_DELEGATE.profileObj {
-          if let amlReport = profileObj.amlReport{
-              if let appData = amlReport.object(forKey: "appData") as? NSDictionary{
-                  if let info = appData.object(forKey: "info") as? NSDictionary{
-                     // doc_fname = info.object(forKey: "firstName") as? String ?? ""
-                      doc_lname = info.object(forKey: "lastName") as? String ?? ""
-                  }
-                
-              }
-          }
-         
+           doc_lname = profileObj.lname
        }
+        print("doc_lname-->",doc_lname)
        var arrSignatire = doc_lname.trim().components(separatedBy: " ")
         arrSignatire.append(doc_lname.trim().lowercased())
         arrSignatire.append(doc_lname.trim().replacingOccurrences(of: " ", with: ""))
         var sinature = self.txfSignature.text!.trim().lowercased()
         sinature = sinature.replacingOccurrences(of: " ", with: "")
         sinature = sinature.replacingOccurrences(of: "/s/", with: "")
-        print("sinature-->",sinature)
         for item in arrSignatire {
-            if item.lowercased() == sinature.lowercased() {
+            if item.trim().lowercased() == sinature.trim().lowercased() {
                   return true
             }
         }

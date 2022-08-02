@@ -1521,6 +1521,7 @@ class ApiHelper {
       print("param------------->",param)
         Common.showBusy()
         let url = URL(string: "\(URL_SERVER)kycaml/updateamptransaction")
+       print("url------------->",url)
         var request = URLRequest(url: url!)
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.setValue("Bearer \(UserDefaults.standard.value(forKey: kToken) as? String ?? "")", forHTTPHeaderField: "Authorization")

@@ -8,7 +8,7 @@
 
 import UIKit
 import SwiftyStoreKit
-let APP_NAME = "artpass wallet"
+let APP_NAME = "artpass PRO"
 let APP_DELEGATE = UIApplication.shared.delegate as! AppDelegate
 let KACUANT = "kacuant"
 let kImageFront = "kImageFront"

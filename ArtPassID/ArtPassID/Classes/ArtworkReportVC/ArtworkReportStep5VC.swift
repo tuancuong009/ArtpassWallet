@@ -113,15 +113,7 @@ class ArtworkReportStep5VC: UIViewController {
        // var doc_fname = ""
         var doc_lname = ""
         if let profileObj = APP_DELEGATE.profileObj {
-            if let amlReport = profileObj.amlReport{
-                if let appData = amlReport.object(forKey: "appData") as? NSDictionary{
-                    if let info = appData.object(forKey: "info") as? NSDictionary{
-                       // doc_fname = info.object(forKey: "firstName") as? String ?? ""
-                        doc_lname = info.object(forKey: "lastName") as? String ?? ""
-                    }
-                  
-                }
-            }
+            doc_lname = profileObj.lname
         }
         
         var arrSignatire = doc_lname.trim().components(separatedBy: " ")
